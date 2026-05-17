@@ -20,7 +20,7 @@ mensagemInicial();
 
 function mensagemInicial() {
 escreverTexto('h1', 'jogo do numero secreto');
-escreverTexto('p', 'escolha um numero de 1 a 100');}
+escreverTexto('p', 'escolha um numero de 1 a 1000');}
 
 function verificarChute() {
     let chute = document.querySelector('input').value;
@@ -51,7 +51,7 @@ function limparCampo() {
 }
 
 function gerarNumeroSecreto() {
-    let numeroGerado = parseInt(Math.random() * 100 + 1);
+    let numeroGerado = parseInt(Math.random() * 1000 + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSecretos.length;
     if (quantidadeDeElementosNaLista == 100) {
         listaDeNumerosSecretos = [];
