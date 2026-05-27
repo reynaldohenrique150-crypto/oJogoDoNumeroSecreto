@@ -1,4 +1,4 @@
-# 🔢 Jogos R&R - O Jogo do Número Secreto
+# 🔢 - O Jogo do Número Secreto
 
 Este é um jogo interativo desenvolvido durante os cursos de Lógica de Programação da **Alura**. O projeto consiste em um jogo de adivinhação onde o usuário tenta descobrir um número secreto gerado aleatoriamente pelo computador, recebendo dicas se o número correto é maior ou menor que o palpite digitado.
 
